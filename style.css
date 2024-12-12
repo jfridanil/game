@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222;
+    color: white;
+  }
+  
+  #game-board {
+    position: relative;
+    width: 900px;
+    height: 500px;
+    border: 2px solid #fff;
+    background-color: #000;
+    overflow: hidden;
+  }
+  
+  .ular {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #0f0;
+  }
+  
+  .makanan {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+  }
+  
+  #score {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 20px;
+  }
+  
+  .judul {
+    justify-items: auto;
+  }
