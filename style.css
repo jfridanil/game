@@ -6,6 +6,7 @@ body {
     align-items: center;
     height: 100vh;
     background-image: url(aset/1.jpeg);
+    background-size: cover;
     color: white;
   }
   
